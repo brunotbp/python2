@@ -1,0 +1,34 @@
+# Ignorar diretórios de ambientes virtuais
+venv/
+env/
+.venv/
+.virtualenv/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Ignorar arquivos de logs e banco de dados
+*.log
+
+
+# Ignorar arquivos de build
+*.egg-info/
+dist/
+build/
+
+# Ignorar arquivos de configuração de pacotes
+*.pyo
+*.pyc
+
+# Ignorar o arquivo de lock do Poetry (se estiver usando)
+poetry.lock
+
+# Ignorar arquivos de configuração do pip
+pip-wheel-metadata/
